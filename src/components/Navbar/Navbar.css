@@ -13,11 +13,6 @@
     font-size: 44px;
 }
 
-.fa-react {
-    margin-left: 0.5rem;
-    font-size: 1.6rem;
-}
-
 .nav-menu {
    display: grid;
    grid-template-columns: repeat(4,auto);
@@ -42,14 +37,6 @@
     border-color: #03b6aa;
 }
 
-.fa-bars {
-    color: #00847C;
-}
-
 .nav-links-mobile {
-    display: none;
-}
-
-.menu-icon {
     display: none;
 }
