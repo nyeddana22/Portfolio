@@ -4,6 +4,8 @@
     justify-content: space-around;
     align-items: center;
     font-size: 24px;
+    background-color: #defaf8;
+    font-family: 'Antic', sans-serif;
 }
 
 .navbar-logo {
@@ -11,16 +13,17 @@
     justify-self: start;
     cursor: pointer;
     font-size: 44px;
+    font-family: 'Antic', sans-serif;
 }
 
 .nav-menu {
    display: grid;
    grid-template-columns: repeat(4,auto);
-   grid-gap: 32px;
+   gap: 40px;
    list-style: none;
    text-align: center;
    width: 80vw;
-   justify-content: end;
+   justify-content:end;
 }
 
 .nav-links {
