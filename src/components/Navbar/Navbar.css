@@ -1,11 +1,12 @@
 .NavbarItems {
     height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-size: 24px;
     background-color: #defaf8;
     font-family: 'Antic', sans-serif;
+    padding: 0 4rem;
 }
 
 .navbar-logo {
@@ -16,23 +17,25 @@
     font-family: 'Antic', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 .nav-menu {
-   display: grid;
-   grid-template-columns: repeat(4,auto);
-   gap: 40px;
+    display: flex;
+    justify-content: space-between;
    list-style: none;
    text-align: center;
-   width: 80vw;
-   justify-content:end;
+   width: 28vw;
 }
 
 .nav-links {
     color: #004C84;
-    text-decoration: none;
-    padding: 5px 10px;
     border-top: 1px solid;
     border-bottom: 1px solid;
     border-color: #004C84;
+    padding: 5px 10px;
+   
 }
 
 .nav-links:hover {
