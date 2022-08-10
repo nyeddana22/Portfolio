@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Landing.css";
 import memoji from "../components/Images/memoji.png";
 import { ImGithub } from "react-icons/im";
-import { GrLocationPin } from "react-icons/gr"
+import { GrLocationPin } from "react-icons/gr";
 import { FiLinkedin } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -19,8 +19,13 @@ class Landing extends Component {
                 <GrLocationPin className="icon no-pointer" />
                 <div>Davis, CA, USA</div>
               </a>
-              <a className="icon-text"> 
-                <MdOutlineEmail className="icon no-pointer" />
+              <a
+                href="mailto:nyeddana@ucdavis.edu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-text"
+              >
+                <MdOutlineEmail className="icon" />
                 <div>nyeddana@ucdavis.edu</div>
               </a>
               <a
@@ -54,8 +59,8 @@ class Landing extends Component {
             </p>
 
             <div className="buttons">
-              <Link to='/aboutme'>
-              <button className="button">About Me</button>
+              <Link to="/aboutme">
+                <button className="button">About Me</button>
               </Link>
             </div>
           </div>

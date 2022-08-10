@@ -1,5 +1,8 @@
 .tooltip-container {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .tooltip-box {
@@ -10,18 +13,17 @@
     border-radius: 5px;
     top: calc(100% + 5px);
     display: none;
-    width: max-content;
   }
   
   .tooltip-box.visible {
     display: block;
   }
   
-  .tooltip-arrow {
+  /* .tooltip-arrow {
     position: absolute;
     top: -10px;
     left: 10%;
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
-  }
+  } */

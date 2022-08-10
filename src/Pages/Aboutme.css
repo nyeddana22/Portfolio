@@ -12,7 +12,35 @@
     display: flex;
     flex-direction: column;
     background-color: #a3e7e395;
-    margin-top: 100px;
+    margin-top: 80px;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
   }
+
+.about-titles {
+    font-family: "Mali", cursive;
+    color: #004c84;
+    margin-top: 40px;
+}   
+
+.about-icons {
+    display: flex;
+    gap: 24px;
+}
+
+.about-icon {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.about-text {
+    color: #00847c;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    font-size: 24px;
+    padding: 0 160px;
+    font-family: "Antic", sans-serif;
+    text-align: center;
+}

@@ -8,7 +8,7 @@ const Tooltip = ({ children, text, ...rest }) => {
       <div className="tooltip-container">
         <div className={show ? 'tooltip-box visible' : 'tooltip-box'}>
           {text}
-          <span className="tooltip-arrow" />
+          {/* <span className="tooltip-arrow" /> */}
         </div>
         <div
           onMouseEnter={() => setShow(true)}
