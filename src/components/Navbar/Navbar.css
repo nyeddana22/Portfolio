@@ -13,7 +13,7 @@
     color: #004C84;
     justify-self: start;
     cursor: pointer;
-    font-size: 44px;
+    font-size: 52px;
     font-family: 'Antic', sans-serif;
 }
 
@@ -24,9 +24,9 @@ a{
 .nav-menu {
     display: flex;
     justify-content: space-between;
-   list-style: none;
-   text-align: center;
-   width: 28vw;
+    list-style: none;
+    text-align: center;
+    width: 40vw;
 }
 
 .nav-links {
@@ -38,11 +38,24 @@ a{
    
 }
 
+.resume-button {
+    background-color: #004c84;
+    color: white;
+    width: 100px;
+    border: 1px solid;
+    cursor: pointer;
+    font-family: "Antic", sans-serif;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.resume-button:hover {
+    background-color: #03b6aa;
+    border: 2px solid #03b6aa;
+    color: #defaf8;
+  }
+
 .nav-links:hover {
     color: #03b6aa;
     border-color: #03b6aa;
-}
-
-.nav-links-mobile {
-    display: none;
 }

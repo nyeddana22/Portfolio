@@ -1,0 +1,63 @@
+.cardsmall {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 500px;
+  height: 300px;
+  word-wrap: break-word;
+  background-color: #a3e7e395;
+  font-family: "Antic", sans-serif;
+  border: 1px solid #03b6aa;
+  border-radius: 8px;
+}
+
+.cardsmall:hover {
+    box-shadow: 0 2px 0 rgba(3,182,170, 0.11), 0 4px 8px rgba(3,182,170, 0.12),
+    0 10px 10px rgba(3,182,170, 0.06), 0 7px 70px rgba(3,182,170, 0.12);
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.textfiordblue {
+  color: #004c84;
+  font-size: 24px;
+}
+
+.cardText {
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 80px;
+  font-weight: 500;
+  font-family: "Antic", sans-serif;
+  font-size: 16px;
+}
+
+.userdate {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid svg {
+  display: inline-block;
+  font-size: inherit;
+  overflow: visible;
+  vertical-align: -0.125em;
+  width: 0.875em;
+  margin-right: 10px;
+}
+
+.grid span {
+  font-weight: 800;
+  font-size: 15px;
+  display: inline;
+}
