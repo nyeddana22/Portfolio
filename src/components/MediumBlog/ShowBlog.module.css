@@ -7,15 +7,15 @@
   width: 500px;
   height: 300px;
   word-wrap: break-word;
-  background-color: #a3e7e395;
+  background-color: white;
   font-family: "Antic", sans-serif;
   border: 1px solid #03b6aa;
   border-radius: 8px;
 }
 
 .cardsmall:hover {
-    box-shadow: 0 2px 0 rgba(3,182,170, 0.11), 0 4px 8px rgba(3,182,170, 0.12),
-    0 10px 10px rgba(3,182,170, 0.06), 0 7px 70px rgba(3,182,170, 0.12);
+    box-shadow: 0 2px 0 rgba(3,182,170, 0.21), 0 4px 8px rgba(3,182,170, 0.22),
+    0 10px 10px rgba(3,182,170, 0.16), 0 7px 70px rgba(3,182,170, 0.24);
 }
 
 .cardBody {
@@ -40,6 +40,7 @@
   font-weight: 500;
   font-family: "Antic", sans-serif;
   font-size: 16px;
+  color: #00847c;
 }
 
 .userdate {
@@ -54,10 +55,12 @@
   vertical-align: -0.125em;
   width: 0.875em;
   margin-right: 10px;
+  color: #004c84;
 }
 
 .grid span {
   font-weight: 800;
   font-size: 15px;
   display: inline;
+  color: #004c84;
 }

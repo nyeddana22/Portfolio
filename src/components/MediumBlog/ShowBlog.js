@@ -2,7 +2,6 @@ import React from "react";
 import c from "./ShowBlog.module.css";
 import ToText from "./ToText";
 import moment from "moment";
-import { Link } from "react-router-dom";
 
 function ShowBlog(props, p) {
   return (

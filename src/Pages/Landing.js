@@ -3,7 +3,7 @@ import "./Landing.css";
 import memoji from "../components/Images/memoji.png";
 import { ImGithub } from "react-icons/im";
 import { GrLocationPin } from "react-icons/gr";
-import { FiLinkedin } from "react-icons/fi";
+import { FiLinkedin, FiArrowUpRight } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
 
@@ -60,8 +60,13 @@ class Landing extends Component {
 
             <div className="buttons">
               <Link to="/aboutme">
-                <button className="button">About Me</button>
+                <button className="button_1">About Me</button>
               </Link>
+              <a href="https://drive.google.com/file/d/1GrNvqEaOuWnufwEQy-dnJxO_2r4_nKAr/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer">
+                <button className="button_2">Resume <FiArrowUpRight/></button>
+              </a>
             </div>
           </div>
         </div>
