@@ -3,6 +3,7 @@ import "./Landing.css";
 import memoji from "../components/Images/memoji.png";
 import { ImGithub } from "react-icons/im";
 import { GrLocationPin } from "react-icons/gr";
+import { BsPenFill } from "react-icons/bs"
 import { FiLinkedin, FiArrowUpRight } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -46,6 +47,15 @@ class Landing extends Component {
                 <ImGithub className="icon" />
                 <div>nyeddana22</div>
               </a>
+              <a
+                href="https://niharika-yeddanapudi.medium.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-text"
+              >
+                <BsPenFill className="icon" />
+                <div>niharika-yeddanapudi</div>
+              </a>
             </div>
           </div>
           <div className="text">
@@ -62,10 +72,14 @@ class Landing extends Component {
               <Link to="/aboutme">
                 <button className="button_1">About Me</button>
               </Link>
-              <a href="https://drive.google.com/file/d/1GrNvqEaOuWnufwEQy-dnJxO_2r4_nKAr/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer">
-                <button className="button_2">Resume <FiArrowUpRight/></button>
+              <a
+                href="https://drive.google.com/file/d/1GrNvqEaOuWnufwEQy-dnJxO_2r4_nKAr/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="button_2">
+                  Resume <FiArrowUpRight />
+                </button>
               </a>
             </div>
           </div>

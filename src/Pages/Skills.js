@@ -14,8 +14,8 @@ const sklist = {
     "sciPy",
     "PyTorch",
     "Tensorflow",
-    "Linear Regression",
-    "Logistic Regression",
+    // Linear and Logistic
+    "Regression",
     "Classification",
     "Clustering",
     "Reinforcement Learning",
@@ -24,10 +24,13 @@ const sklist = {
   Networks: [
     "Netmiko",
     "Paramiko",
-    "Routing Protocols (OSPF, EIGRP, BGP, MPLS)",
+    // Protocols (OSPF, EIGRP, BGP, MPLS)
+    "Routing",
     "Switching",
-    "Software Defined Wide Area Network (SD-WAN)",
-    "Quality of Service (QoS)",
+    // Software Defined Wide Area Network
+    "SD-WAN",
+    // Quality of Service
+    "QoS",
   ],
 };
 
@@ -38,21 +41,56 @@ class Skills extends Component {
         <div className="skills-container">
           <div className="technical-skills">
             <ul>
-              {sklist.languages.map((item, i) => {
-                return <li key={i}>{item}</li>;
-              })}
-              {sklist.webdev.map((item, i) => {
-                return <li key={i}>{item}</li>;
-              })}
-              {sklist.software_tools.map((item, i) => {
-                return <li key={i}>{item}</li>;
-              })}
-              {sklist.MachineLearning.map((item, i) => {
-                return <li key={i}>{item}</li>;
-              })}
-              {sklist.Networks.map((item, i) => {
-                return <li key={i}>{item}</li>;
-              })}
+              <div className="top-three">
+                <div className="section-box">
+                  {sklist.languages.map((item, i) => {
+                    return (
+                      <li key={i} className="skill">
+                        {item}
+                      </li>
+                    );
+                  })}
+                </div>
+                <div className="section-box">
+                  {sklist.webdev.map((item, i) => {
+                    return (
+                      <li key={i} className="skill">
+                        {item}
+                      </li>
+                    );
+                  })}
+                </div>
+                <div className="section-box">
+                  {sklist.software_tools.map((item, i) => {
+                    return (
+                      <li key={i} className="skill">
+                        {item}
+                      </li>
+                    );
+                  })}
+                </div>
+              </div>
+              <br />
+              <div className="bottom-two">
+                <div className="section-box">
+                  {sklist.MachineLearning.map((item, i) => {
+                    return (
+                      <li key={i} className="skill">
+                        {item}
+                      </li>
+                    );
+                  })}
+                </div>
+                <div className="section-box">
+                  {sklist.Networks.map((item, i) => {
+                    return (
+                      <li key={i} className="skill">
+                        {item}
+                      </li>
+                    );
+                  })}
+                </div>
+              </div>
             </ul>
           </div>
         </div>

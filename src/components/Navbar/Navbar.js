@@ -24,9 +24,9 @@ class Navbar extends Component {
           <li className="nav-links">
             <Link to="/projects">Projects</Link>
           </li>
-          <li className="nav-links">
+          {/* <li className="nav-links">
             <Link to="/blog">Blog</Link>
-          </li>
+          </li> */}
           <li className="resume-button">
             <a
               href="https://drive.google.com/file/d/1GrNvqEaOuWnufwEQy-dnJxO_2r4_nKAr/view?usp=sharing"
