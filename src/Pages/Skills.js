@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import "./Skills.css";
 
 const sklist = {
@@ -23,7 +23,6 @@ const sklist = {
   ],
   Networks: [
     "Netmiko",
-    "Paramiko",
     // Protocols (OSPF, EIGRP, BGP, MPLS)
     "Routing",
     "Switching",
@@ -35,8 +34,10 @@ const sklist = {
 };
 
 class Skills extends Component {
+  
   render() {
     return (
+      
       <div className="skills-body">
         <div className="skills-container">
           <div className="technical-skills">

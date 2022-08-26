@@ -73,7 +73,7 @@ class Landing extends Component {
                 <button className="button_1">About Me</button>
               </Link>
               <a
-                href="https://drive.google.com/file/d/1GrNvqEaOuWnufwEQy-dnJxO_2r4_nKAr/view?usp=sharing"
+                href="https://drive.google.com/file/d/120nxjTHwZnudrjQ4r0VO6T88OU8OthuV/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
